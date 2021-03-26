@@ -6,3 +6,5 @@ This data challenge is part of the course <a href="http://members.cbio.mines-par
 The link to the data challenge on kaggle: <a href="https://www.kaggle.com/c/machine-learning-with-kernel-methods-2021">https://www.kaggle.com/c/machine-learning-with-kernel-methods-2021</a>
 
 This work is realised by: Abdelhakim Benechehab, Ichraq Lemghari, students at the Msc MVA program at ENS Paris-saclay.
+
+In order to reproduce our last submission (66.46% in private dataset, and 66.33% in public dataset) please run start.py (it might takes more than an hour to run :D)
