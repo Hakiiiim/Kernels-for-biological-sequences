@@ -222,12 +222,6 @@ Xte1 = np.array(Xte1)
 Xte2 = pd.read_csv("Xte2.csv", sep=",", index_col=0)
 Xte2 = np.array(Xte2)
 
-# split
-
-Xtr0_train, Xtr0_test, ytr0_train, ytr0_test = train_test_split( Xtr0, ytr0, test_size=0.25, random_state=42)
-Xtr1_train, Xtr1_test, ytr1_train, ytr1_test = train_test_split( Xtr1, ytr1, test_size=0.25, random_state=42)
-Xtr2_train, Xtr2_test, ytr2_train, ytr2_test = train_test_split( Xtr2, ytr2, test_size=0.25, random_state=42)
-
 print("- data imported\n")
 
 
